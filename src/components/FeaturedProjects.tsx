@@ -52,8 +52,8 @@ const FeaturedProjects = () => {
 
               {modalOpen === index && (
                 <ProjectModal>
-                  <div className="flex justify-between px-5">
-                    <h1 className="text-2xl font-bold">{project?.title}</h1>
+                  <div className="flex justify-between px-5 mt-4">
+                    <h1 className="text-2xl font-bold ">{project?.title}</h1>
                     <button type="button" onClick={() => setModalOpen(-1)}>
                       <CloseIcon />
                     </button>
@@ -63,11 +63,11 @@ const FeaturedProjects = () => {
                   </div>
 
                   <div className="flex flex-col gap-2 px-5">
-                    <p className="text-[20px] mt-4 ">
+                    <p className="lg:text-[20px] mt-4  max-sm:text-[15px]">
                       {" "}
                       Description: {project?.description}
                     </p>
-                    <p className="text-[20px] mt-2">
+                    <p className="lg:text-[20px] mt-2 max-sm:text-[15px]">
                       Technology Used: {project?.techUsed}
                     </p>
 
