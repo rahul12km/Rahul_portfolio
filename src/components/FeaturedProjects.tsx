@@ -57,7 +57,7 @@ const FeaturedProjects = () => {
                     <button type="button" onClick={() => setModalOpen(-1)}>
                       <CloseIcon />
                     </button>
-                  </div>
+                  </div>  
                   <div className="flex mx-auto">
                     <TailwindCarousel index={index} />
                   </div>
@@ -65,10 +65,11 @@ const FeaturedProjects = () => {
                   <div className="flex flex-col gap-2 px-5">
                     <p className="lg:text-[20px] mt-4  max-sm:text-[15px]">
                       {" "}
-                      Description: {project?.description}
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600">
+                      Description:</span>{project?.description}
                     </p>
                     <p className="lg:text-[20px] mt-2 max-sm:text-[15px]">
-                      Technology Used: {project?.techUsed}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600">Technology Used:</span>  {project?.techUsed}
                     </p>
 
                     <div className="links text-[20px] mt-2 flex justify-center w-full gap-[20px] mb-4">

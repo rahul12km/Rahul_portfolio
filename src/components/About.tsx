@@ -192,12 +192,12 @@ const About = () => {
               </div>
             </Tooltip>
           </div>
-          <div className="contact-info flex mx-auto gap-[20px] mt-[30px]">
+          <div className="contact-info max-sm:flex-col flex mx-auto gap-[20px] mt-[30px]">
             <a
               href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=bestrahul123r@gmail.com"
               target="_blank"
             >
-              <div className=" mail flex  max-sm:flex-col gap-2  border-white p-2 bg-gray-900 rounded-md hover:bg-gray-700 duration-500 cursor-pointer">
+              <div className=" mail flex  gap-2  border-white p-2 bg-gray-900 rounded-md hover:bg-gray-700 duration-500 cursor-pointer">
                 <Image height={27} width={27} src="/images/gmail.png" alt="" />
                 <p className="text-white">bestrahul123r@gmail.com</p>
               </div>
