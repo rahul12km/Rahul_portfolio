@@ -11,14 +11,21 @@ const HeroSection = () => {
     const section = document.getElementById(sectionId);
     if (!section) return;
   
-    const offset = 100; 
+    let offset = 100; 
+  
+    
+    if (window.innerWidth < 768) {
+        offset = 600; 
+    }
+  
     const offsetPosition = section.offsetTop + offset;
   
     window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
+        top: offsetPosition,
+        behavior: 'smooth'
     });
-  }
+}
+
   
 
   return (
@@ -65,13 +72,13 @@ const HeroSection = () => {
             industry trends and technologies.
           </p>
           <div className="relative" onClick={()=>console.log("clicke bhai")}>
-          <a
-              href="#"
+          <div
+             
               className="  px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white cursor-pointer"
               onClick={()=>scrollToSection("about")}
             >
               Hire Me
-            </a>
+            </div>
             <a
               href="/Docs/CV.pdf"  target="_blank"
               className="  px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3 cursor-pointer"
