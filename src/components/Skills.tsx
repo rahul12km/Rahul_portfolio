@@ -32,6 +32,7 @@ const Skills = () => {
               alt=""
               height={150}
               width={150}
+              
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image

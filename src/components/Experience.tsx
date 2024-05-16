@@ -31,14 +31,14 @@ const Experience = () => {
             ></Image>
           </div>
           <div className="exp-text flex flex-col  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400  animate">
-            <p className="font-extrabold text-[24px] sm:text-3xl lg:text-[40px] lg:leading-normal">
+            <p className="font-extrabold  max-sm:text-[24px]  lg:text-[40px] lg:leading-normal">
               Varcons Technologies Pvt Ltd
             </p>
 
-            <p className="text-[25px] font-semibold  mb-3">
+            <p className="lg:text-[25px] max-sm:text-[17px] font-semibold  mb-3">
               Web Developer(Intern)
             </p>
-            <p className="text-[25px] font-semibold  mb-3">
+            <p className="lg:text-[25px] max-sm:text-[17px] font-semibold  mb-3">
               Aug 2022 - Sep 2022
             </p>
           </div>
