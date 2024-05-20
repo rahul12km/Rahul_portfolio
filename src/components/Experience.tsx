@@ -5,7 +5,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className=" max-sm:pt-[60px] h-screen flex flex-col w-full px-[30px]  max-sm:mt-[100px] max-sm:mb-0 overflow-hidden  ">
+    <div className=" max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px]  max-sm:mt-[100px] max-sm:mb-0 overflow-hidden  lg:mt-[300px] lg:mb-[300px] ">
       <motion.div
         initial={{ opacity: 0, y: "-100%" }}
         whileInView={{ opacity: 1, y: "0" }}

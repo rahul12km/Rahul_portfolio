@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px]  lg:mb-[200px]  ">
+    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px]  lg:mb-[200px] lg:mt-[200px] ">
       <motion.div
         initial={{ opacity: 0, y: "-100%" }}
         whileInView={{ opacity: 1, y: "0" }}
