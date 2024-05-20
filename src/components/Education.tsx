@@ -3,7 +3,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px] mt-[100px]">
+    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px lg:mt-[200px] lg:mb-[200px] ">
       <h1 className=" py-5   text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600 text-2xl max-sm:text-[45px] lg:text-8xl lg:leading-normal font-extrabold ">
         Education
       </h1>

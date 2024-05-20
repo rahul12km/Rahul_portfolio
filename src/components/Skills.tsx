@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px] mt-[50px]">
+    <div className="max-sm:pt-[60px] h-auto flex flex-col w-full px-[30px]  lg:mb-[200px]  ">
       <motion.div
         initial={{ opacity: 0, y: "-100%" }}
         whileInView={{ opacity: 1, y: "0" }}
@@ -30,60 +30,60 @@ const Skills = () => {
             <Image
               src="/images/mongodb.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/express.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/react.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/nodejs.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125 "
             ></Image>
             <Image
               src="/images/mysql.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <div className="h-150 w-150 bg-white rounded-full relative ">
               <Image
                 src="/images/next.svg"
                 alt=""
-                height={150}
-                width={150}
+                height={120}
+                width={120}
                 className="p-6 hover:transform hover:scale-125 "
               ></Image>
             </div>
             <Image
               src="/images/bootstrap.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/tailwind.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
           </Marquee>
@@ -97,51 +97,51 @@ const Skills = () => {
             <Image
               src="/images/c++.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/python.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/html.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/css.png"
               alt=""
-              height={175}
-              width={175}
+              height={145}
+              width={145}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/sass.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/javascript.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
 
             <Image
               src="/images/typescript.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
           </Marquee>
@@ -155,15 +155,15 @@ const Skills = () => {
             <Image
               src="/images/github.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
             <Image
               src="/images/git.png"
               alt=""
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               className="p-6 hover:transform hover:scale-125"
             ></Image>
           </div>

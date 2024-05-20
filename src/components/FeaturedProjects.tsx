@@ -33,7 +33,7 @@ const FeaturedProjects = () => {
   );
 
   return (
-    <div className=" max-sm:pt-[70px] h-auto py-12 mt-[100px] ">
+    <div className=" max-sm:pt-[70px] h-auto py-12">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
