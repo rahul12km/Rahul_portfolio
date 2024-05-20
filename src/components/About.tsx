@@ -27,7 +27,7 @@ const transition = {
 const About = () => {
   const [display, setDisplay] = useState<boolean>(false);
   return (
-    <div className="  lg:py-16 h-auto flex w-full  overflow-x-hidden ">
+    <div className="  lg:py-16 h-auto flex w-full  overflow-x-hidden lg:mt-[200px] lg:mb-[200px] ">
       <div className="container flex  w-full max-sm:flex-col max-sm:mt-[40px] max-sm:mx-auto ">
         <h1 className=" lg:hidden max-sm:mt-[100px] card-wrapper text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 text-2xl max-sm:text-[45px] lg:text-8xl lg:leading-normal font-extrabold m-auto">
           About Me
