@@ -11,7 +11,7 @@ const Skills = () => {
         whileInView={{ opacity: 1, y: "0" }}
         transition={{ duration: 1 }}
       >
-        <h1 className=" py-5   text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600 text-2xl max-sm:text-[45px] lg:text-8xl lg:leading-normal font-extrabold ">
+        <h1 className=" py-5   text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600 text-2xl max-sm:text-[45px] lg:text-7xl lg:leading-normal font-extrabold  mx-auto">
           Skills
         </h1>
       </motion.div>
@@ -22,7 +22,7 @@ const Skills = () => {
       ></motion.div>
       <div className="skill-container flex flex-col w-full ">
         <div className="framework flex flex-col  w-[70%] max-sm:w-[95%] m-auto gap-4">
-          <p className=" mt-5  max-sm:text-[28px] md:mt-0 text-[50px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400  animate">
+          <p className=" mt-5  max-sm:text-[28px] md:mt-0 text-[40px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400  animate">
             Libraries/Frameworks
           </p>
 
@@ -90,7 +90,7 @@ const Skills = () => {
         </div>
 
         <div className="languages mt-5 flex flex-col w-[70%] max-sm:w-[95%]  m-auto">
-          <p className=" mt-5 max-sm:text-[28px] md:mt-0 text-[50px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+          <p className=" mt-5 max-sm:text-[28px] md:mt-0 text-[40px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Languages
           </p>
           <Marquee speed={100} direction="right" className="overflow-hidden">
@@ -148,7 +148,7 @@ const Skills = () => {
         </div>
 
         <div className="other-skills flex  flex-col mt-5  w-[70%]  max-sm:w-[95%] m-auto ">
-          <p className="mt-5  max-sm:text-[28px] md:mt-0 text-[50px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+          <p className="mt-5  max-sm:text-[28px] md:mt-0 text-[40px] md:text-[50px] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Other Skills
           </p>
           <div className="flex">

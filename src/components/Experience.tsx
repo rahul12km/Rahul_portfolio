@@ -11,7 +11,7 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: "0" }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <h1 className=" py-5   text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600 text-2xl max-sm:text-[45px] lg:text-8xl lg:leading-normal font-extrabold ">
+        <h1 className=" py-5   text-transparent bg-clip-text bg-gradient-to-r to-tertiary-400 from-secondary-600 text-2xl max-sm:text-[45px] lg:text-6xl lg:leading-normal font-extrabold ">
           Experience
         </h1>
       </motion.div>
@@ -31,7 +31,7 @@ const Experience = () => {
             ></Image>
           </div>
           <div className="exp-text flex flex-col  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400  animate">
-            <p className="font-extrabold  max-sm:text-[24px]  lg:text-[40px] lg:leading-normal">
+            <p className="font-extrabold  max-sm:text-[24px]  lg:text-[35px] lg:leading-normal">
               Varcons Technologies Pvt Ltd
             </p>
 
@@ -41,6 +41,10 @@ const Experience = () => {
             <p className="lg:text-[25px] max-sm:text-[17px] font-semibold  mb-3">
               Aug 2022 - Sep 2022
             </p>
+            <p className="lg:text-[20px] max-sm:text-[17px] font-semibold mt-3 mb-3">
+           Worked on developing a Template-Photography Website.<br/>
+           Website that provides pre-designed template specifically tailored for photographers to showcase their work online
+          </p>
           </div>
         </div>
       </motion.div>
