@@ -75,13 +75,6 @@ const Navbar = ({ className }: { className?: string }) => {
             item="Projects"
           ></MenuItem>
         </Link>
-        <Link href={"/contact"}>
-          <MenuItem
-            setActive={setActive}
-            active={active}
-            item="Contact"
-          ></MenuItem>
-        </Link>
       </Menu>
     </div>
   );
