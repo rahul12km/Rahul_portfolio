@@ -15,7 +15,7 @@
       "deploy": "",
       "frontend": "https://github.com/rahul12km/smock-E-commerce-website-frontend-",
       "backend": "https://github.com/rahul12km/smock-E-commerce-website-backend-",
-      "techUsed": "MERN  Redux  Redux Toolkit  Jwt  RazorPay  Firebase  tailwind "
+      "techUsed": "MERN Stack | Redux | Redux Toolkit | Jwt | RazorPay | Firebase | tailwind "
     },
     {
       "id": 2,
@@ -31,7 +31,7 @@
       "deploy": "https://movies-app-beta-mauve.vercel.app/",
       "frontend": "https://github.com/rahul12km/Movies-app",
       "backend": "",
-      "techUsed": "ReactJS  RestApi  SaaS  React-Youtube  InfiniteScroll"
+      "techUsed": "ReactJS | RestApi | SaaS | React-Youtube | InfiniteScroll "
     },
     {
       "id": 3,
@@ -47,18 +47,18 @@
       "deploy": "https://cryptoverse-three-beta.vercel.app/",
       "frontend": "https://github.com/rahul12km/cryptoverse",
       "backend": "",
-      "techUsed": "RectJs  RestApi  ChartJS  Vanila CSS"
+      "techUsed": "RectJs | RestApi | ChartJS | Vanila CSS"
     },
     {
       "id": 4,
-      "title": "Apna Product",
-      "description": "An E-Commerce website built using Redux and Redux Toolkit",
-      "image": ["/images/ap 1.png", "/images/ap 2.png"],
-      "slug": "apna-product",
+      "title": "Snappy",
+      "description": "A chat app  with customizable avatar",
+      "image": ["/images/chat 1.png", "/images/chat 2.png","/images/chat 3.png","/images/chat 4.png","/images/chat 5.png"],
+      "slug": "Snappy",
       "deploy": "",
-      "frontend": "https://github.com/rahul12km/ApnaProduct",
-      "backend": "https://github.com/rahul12km/ApnaProduct",
-      "techUsed": "MERN  Redux  Redux Toolkit  Bootstrap  RazorPay"
+      "frontend": "https://github.com/rahul12km/ChatApp",
+      "backend": "https://github.com/rahul12km/ChatApp",
+      "techUsed": "MERN stack | Styled Component | Rest API | Socket io "
     }
   ]
 }
